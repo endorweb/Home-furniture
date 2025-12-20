@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* body {
+    height: 300vh;
+} */
+
+/* header */
+input {
+    display: none;
+}
+
+.main-header {
+    font-size: 1.1em;
+    padding: 0;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    padding-right: 80px;
+}
+
+.logo {
+    padding: 20px 30px;
+    font-size: 1.1em;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: rgb(210, 151, 1);
+}
+
+nav ul li {
+    border-right: 1px solid rgba(255, 255, 255, 0.521);
+}
+
+li a,
+.btn {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    padding: 20px 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+}
+
+.btn {
+    background-color: rgb(210, 151, 1);
+}
+
+.catlist {
+    position: absolute;
+    background-color: rgb(210, 151, 1);
+    display: none;
+    right: 50px;
+    padding: 10px;
+}
+
+.catlist>a {
+    border-bottom: 1px solid #eeeeee50;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.catlist>a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+.dropdown:hover>.catlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+/* banner */
+.main-banner {
+    padding-left: 30px;
+    line-height: 1.5;
+    font-size: 1.1em;
+    background-color: rgb(1, 21, 28);
+    color: white;
+}
+
+.sub-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.bannerdesc>div>button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid white;
+    background-color: rgb(210, 151, 1);
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.bannerdesc>div>.bton {
+    background-color: transparent
+}
+
+.sub-banner>div>img {
+    width: 100%;
+    display: block;
+}
+
+
+
+/* Why We Are Best In Our Town */
+.zweiteSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+    line-height: 1.5;
+    background-color: rgb(210, 151, 1);
+    color: white;
+    font-size: 1.1em;
+}
+
+.main-sthule {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-sthule>.pfeil {
+    display: none;
+}
+
+.sthule>figure>.preis {
+    margin-top: 40px;
+}
+
+.beschreiben>.pfeil {
+    margin: 30px 40px 0;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.zweiteSection>.pfeil {
+    display: none;
+}
+
+.beschreiben>h2 {
+    margin-bottom: 30px;
+}
+
+.sthule {
+    text-align: center;
+}
+
+.sthule>.preis {
+    padding-top: 30px;
+}
+
+.sthule>figure>img {
+    width: 250px;
+}
+
+/* Our Product */
+.mainourproduct {
+    padding: 50px;
+    background-color: rgb(12, 3, 3);
+    color: white;
+}
+
+.mainourproduct>h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.subourproduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 70px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+
+}
+
+.prodOne>img {
+    width: 260px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.productsInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.productsInfo>div>p {
+    line-height: 3;
+}
+
+.priesproduct {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 3px;
+    text-align: left;
+}
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: black;
+    padding: 50px;
+}
+
+.button>button {
+    border: none;
+    background-color: rgb(210, 151, 1);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
