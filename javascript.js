@@ -1,3 +1,36 @@
+// GreetingSection
+let greeting = document.getElementById("greetingSection");
+
+let now = new Date();
+let today = now.toDateString();
+
+let lastVisit = localStorage.getItem("lastVisit");
+
+if (lastVisit !== today) {
+    greeting.style.display = "block";
+    lastVisit = localStorage.setItem("lastVisit", today);
+
+} else {
+    greeting.style.display = "none";
+};
+
+setTimeout(function () {
+    greeting.classList.add("fade-out");
+}, 2000);
+
+setTimeout(function () {
+    greeting.style.display = "none"
+}, 5000);
+
+localStorage.clear()
+
+
+
+
+
+
+// Products
+
 let productsSection = [
     {
         img: "images/product-ein.png",
