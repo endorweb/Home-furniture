@@ -183,7 +183,7 @@
     /* Mini Footer */
     .main-footer {
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
 
     .main-footer>div>img {
@@ -228,7 +228,7 @@
 
     .info-footer>button {
         border: none;
-        background-color: rgb(210, 151, 1);
+        background-color: rgb(255, 140, 0);
         padding: 10px 30px;
         color: white;
         border-radius: 100px;
@@ -236,6 +236,46 @@
         cursor: pointer;
         font-size: 1.2em;
     }
+
+
+    /* Footer */
+    .mainfoo {
+        padding: 100px 30px;
+        padding-bottom: 5px;
+        background-color: rgba(236, 236, 236, 0.767);
+        font-size: 1.1em;
+    }
+
+    .subfoo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .subfoo>div {
+        font-size: 1.1em;
+    }
+
+    /* Footer> /* Social Media */
+    .main-socialmedia {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 100px;
+        line-height: 1.5;
+        font-size: 1.1em;
+    }
+
+    .main-socialmedia>div:nth-child(2) {
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+
+    .main-socialmedia>div:nth-child(1) {
+        width: 100%;
+    }
+
 }
 
 
@@ -363,7 +403,7 @@
     /* Mini Footer */
     .main-footer {
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
 
     .main-footer>div>img {
@@ -408,13 +448,51 @@
 
     .info-footer>button {
         border: none;
-        background-color: rgb(210, 151, 1);
+        background-color: rgb(255, 140, 0);
         padding: 10px 30px;
         color: white;
         border-radius: 100px;
         font-weight: bold;
         cursor: pointer;
         font-size: 1.2em;
+    }
+
+    /* Footer */
+    .mainfoo {
+        padding: 100px 30px;
+        padding-bottom: 5px;
+        background-color: rgba(236, 236, 236, 0.767);
+        font-size: 1.1em;
+    }
+
+    .subfoo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .subfoo>div {
+        font-size: 1.1em;
+    }
+
+    /* Footer> /* Social Media */
+    .main-socialmedia {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 100px;
+        line-height: 1.5;
+        font-size: 1.1em;
+    }
+
+    .main-socialmedia>div:nth-child(2) {
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+
+    .main-socialmedia>div:nth-child(1) {
+        width: 100%;
     }
 
 }
@@ -503,7 +581,6 @@
         font-size: 1.2em
     }
 
-
 }
 
 
@@ -581,7 +658,7 @@
         z-index: 99;
         width: 70%;
         max-width: 380px;
-        background-color: rgb(210, 151, 1);
+        background-color: rgb(255, 140, 0);
         height: 100%;
         overflow-y: scroll;
         height: 900px;
@@ -643,7 +720,6 @@
         padding-left: 0;
         text-align: center;
         padding-bottom: 30px;
-
     }
 
     .sub-banner {
@@ -718,7 +794,7 @@
         padding: 30px;
         gap: 20px;
         line-height: 1.5;
-        background-color: rgb(193, 142, 0);
+        background-color: rgb(255, 140, 0);
         color: rgb(255, 255, 255);
         text-align: center;
         font-size: 1.2em;
@@ -804,7 +880,7 @@
         z-index: 99;
         width: 70%;
         max-width: 380px;
-        background-color: rgb(210, 151, 1);
+        background-color: rgb(255, 140, 0);
         height: 100%;
         overflow-y: scroll;
         height: 900px;

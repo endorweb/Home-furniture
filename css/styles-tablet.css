@@ -48,7 +48,7 @@
 
     .info-footer>button {
         border: none;
-        background-color: rgb(210, 151, 1);
+        background-color: rgb(255, 140, 0);
         padding: 10px 30px;
         color: white;
         border-radius: 100px;
@@ -262,7 +262,7 @@
         z-index: 99;
         width: 70%;
         max-width: 380px;
-        background-color: rgb(210, 151, 1);
+        background-color: rgb(255, 140, 0);
         height: 100%;
         overflow-y: scroll;
         height: 900px;
