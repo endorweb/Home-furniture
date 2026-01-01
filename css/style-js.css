@@ -23,9 +23,6 @@ body {
 }
 
 
-
-
-
 /* Greetin Media Queries */
 @media (max-width: 1140px) {
     #greetingSection {
@@ -39,4 +36,11 @@ body {
     #greetingSection>img {
         transform: scale(0.8);
     }
+}
+
+
+/* Our Product */
+
+.prodOne {
+    /* position: relative; */
 }

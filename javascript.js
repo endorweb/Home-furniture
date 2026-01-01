@@ -34,65 +34,65 @@ localStorage.clear()
 let productsSection = [
     {
         img: "images/product-ein.png",
-        titel: "Neue Sthule",
-        preis: "$20",
-        stars: `<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        titel: "Product Name",
+        preis: "$50",
+        stars: `<i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
         `,
     },
 
     {
         img: "images/product-zwei.png",
-        titel: "Neue Sthule",
-        preis: "$20",
-        stars: `<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        titel: "Product Name",
+        preis: "$25",
+        stars: `<i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
         `,
     },
 
     {
         img: "images/product-drei.png",
-        titel: "Neue Sthule",
+        titel: "Product Name",
         preis: "$20",
-        stars: `<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        stars: `<i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
         `,
     },
 
     {
         img: "images/product-vier.png",
-        titel: "Neue Sthule",
+        titel: "Product Name",
         preis: "$20",
-        stars: `<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        stars: `<i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
         `,
     },
 
     {
         img: "images/product-sex.png",
-        titel: "Neue Sthule",
+        titel: "Product Name",
         preis: "$20",
-        stars: `<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        stars: `<i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
         `,
     },
 
     {
         img: "images/sthule-funf.png",
-        titel: "Neue Sthule",
+        titel: "Product Name",
         preis: "$20",
-        stars: `<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        stars: `<i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
+        <i class="fa-solid fa-star" style="color: rgb(255, 140, 0);"></i>
         `,
     },
 ];
