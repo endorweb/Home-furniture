@@ -264,7 +264,7 @@
         justify-content: space-between;
         margin-top: 100px;
         line-height: 1.5;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .main-socialmedia>div:nth-child(2) {
@@ -650,8 +650,8 @@
     .menu {
         position: fixed;
         top: 0;
-        right: -300%;
-        padding: 130px 20px 10px 10px;
+        left: -300%;
+        padding: 30px 10px;
         display: flex;
         flex-direction: column;
         transition: all 0.5s ease;
@@ -679,11 +679,13 @@
         color: white;
         border-bottom: 1px solid white;
         display: block;
+        margin-bottom: 30px;
+        background-color: rgba(255, 166, 0, 0.24);
     }
 
 
     .menu-toggle:checked~.menu {
-        right: 0;
+        left: 0;
     }
 
     .overlay {
